@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Problem3-FaktorBilangan/Problem3-FaktorBilangan.iml" filepath="$PROJECT_DIR$/Problem3-FaktorBilangan/Problem3-FaktorBilangan.iml" />
       <module fileurl="file://$PROJECT_DIR$/Segitiga/Segitiga.iml" filepath="$PROJECT_DIR$/Segitiga/Segitiga.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestJava.iml" filepath="$PROJECT_DIR$/TestJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawXYZ/drawXYZ.iml" filepath="$PROJECT_DIR$/drawXYZ/drawXYZ.iml" />
       <module fileurl="file://$PROJECT_DIR$/pylondromme/pylondromme.iml" filepath="$PROJECT_DIR$/pylondromme/pylondromme.iml" />
       <module fileurl="file://$PROJECT_DIR$/switchcase/switchcase.iml" filepath="$PROJECT_DIR$/switchcase/switchcase.iml" />
     </modules>
