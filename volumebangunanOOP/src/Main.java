@@ -12,5 +12,16 @@ public class Main {
         volumeKubus.hitungVolumeKubus();
         System.out.println("Jadi, volume kubus tersebut adalah : " + volumeKubus.hitungVolumeKubus());
 
+//        BALOK
+        System.out.println("Inputkan panjang baloknya : ");
+        int panjangBalok = input.nextInt();
+        System.out.println("Inputkan lebar baloknya : ");
+        int lebarBalok = input.nextInt();
+        System.out.println("Inputkan tinggi baloknya : ");
+        int tinggiBalok = input.nextInt();
+
+        Balok volumeBalok = new Balok(panjangBalok, lebarBalok, tinggiBalok);
+        volumeBalok.hitungVolumeBalok();
+        System.out.println("Jadi, volume balok tersebut adalah : " + volumeBalok.hitungVolumeBalok());
     }
 }
