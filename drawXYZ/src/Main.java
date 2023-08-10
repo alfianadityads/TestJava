@@ -9,11 +9,11 @@ public class Main {
                 temp++;
 
                 if (temp % 3 == 0) {
-                    System.out.print("X");
+                    System.out.print("X ");
                 } else if (temp % 2 != 0) {
-                    System.out.print("Y");
+                    System.out.print("Y ");
                 } else if (temp % 2 == 0){
-                    System.out.print("Z");
+                    System.out.print("Z ");
                 }
             }
             System.out.println();
