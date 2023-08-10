@@ -1,3 +1,5 @@
+import javafx.scene.control.Tab;
+
 import java.util.Scanner;
 
 public class Main {
@@ -23,5 +25,15 @@ public class Main {
         Balok volumeBalok = new Balok(panjangBalok, lebarBalok, tinggiBalok);
         volumeBalok.hitungVolumeBalok();
         System.out.println("Jadi, volume balok tersebut adalah : " + volumeBalok.hitungVolumeBalok());
+
+//        TABUNG
+        System.out.println("Inputkan jari - jari tabung : ");
+        int jariJariTabung = input.nextInt();
+        System.out.println("Inputkan tinggi tabung : ");
+        int tinggiTabung = input.nextInt();
+
+        Tabung volumeTabung = new Tabung(jariJariTabung,tinggiTabung);
+        volumeTabung.hitungVolumeTabung();
+        System.out.println("Jadi, volume tabung tersebut adalah : " + volumeTabung.hitungVolumeTabung());
     }
 }
