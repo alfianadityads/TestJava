@@ -42,6 +42,7 @@ public class Main {
                 System.out.println(angkaPengurangan1 + " - " + angkaPengurangan2 + " = " + operasi.pengurangan());
                 System.out.println(" ");
 
+//              Perkalian
             } else if (pilihanOperasi == 3) {
                 System.out.println("Menu Perkalian");
                 System.out.println(" ");
@@ -52,6 +53,8 @@ public class Main {
                 operasi.InputNumber(angkaPerkalian1,angkaPerkalian2);
                 System.out.println(angkaPerkalian1 + " * " + angkaPerkalian2 + " = " + operasi.perkalian());
                 System.out.println(" ");
+
+//              Pembagian
             } else if (pilihanOperasi == 4) {
                 System.out.println("Menu Pembagian");
                 System.out.println(" ");
