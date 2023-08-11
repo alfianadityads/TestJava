@@ -1,10 +1,6 @@
-public class Operation extends Input {
+class Operation extends Input {
 
-    public Operation(float input1, float input2) {
-        super(input1, input2);
-    }
-
-    public float penjumlahan () {
+    public float penjumlahan() {
         return (input1 + input2);
     }
 
@@ -18,7 +14,7 @@ public class Operation extends Input {
 
     public float pembagian() {
         if (input2 == 0) {
-            System.out.println(0);
+            System.out.println("0");
         }
         return (input1 / input2);
 
